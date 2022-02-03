@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		704E4E83279ED8EC005C0985 /* Cat_or_Dog_CoreMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E4E82279ED8EC005C0985 /* Cat_or_Dog_CoreMLApp.swift */; };
+		704E4E85279ED8EC005C0985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E4E84279ED8EC005C0985 /* ContentView.swift */; };
+		704E4E87279ED8ED005C0985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704E4E86279ED8ED005C0985 /* Assets.xcassets */; };
+		704E4E8A279ED8ED005C0985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704E4E89279ED8ED005C0985 /* Preview Assets.xcassets */; };
+		704E4E93279ED8FE005C0985 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 704E4E90279ED8FD005C0985 /* MobileNetV2.mlmodel */; };
+		704E4E94279ED8FE005C0985 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 704E4E91279ED8FD005C0985 /* sample.json */; };
+		704E4E95279ED8FE005C0985 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E4E92279ED8FE005C0985 /* Constants.swift */; };
+		704E4E97279EDDD5005C0985 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E4E96279EDDD5005C0985 /* Animal.swift */; };
+		704E4E99279EDECF005C0985 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E4E98279EDECF005C0985 /* AnimalModel.swift */; };
+		707F286A27ABA6520076B202 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F286927ABA6520076B202 /* ProgressBar.swift */; };
+		707F286C27ABA8D60076B202 /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F286B27ABA8D60076B202 /* AnimalRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		704E4E7F279ED8EC005C0985 /* Cat or Dog CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat or Dog CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		704E4E82279ED8EC005C0985 /* Cat_or_Dog_CoreMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_or_Dog_CoreMLApp.swift; sourceTree = "<group>"; };
+		704E4E84279ED8EC005C0985 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		704E4E86279ED8ED005C0985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		704E4E89279ED8ED005C0985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		704E4E90279ED8FD005C0985 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		704E4E91279ED8FD005C0985 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		704E4E92279ED8FE005C0985 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		704E4E96279EDDD5005C0985 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		704E4E98279EDECF005C0985 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		707F286927ABA6520076B202 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		707F286B27ABA8D60076B202 /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		704E4E7C279ED8EC005C0985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		704E4E76279ED8EC005C0985 = {
+			isa = PBXGroup;
+			children = (
+				704E4E81279ED8EC005C0985 /* Cat or Dog CoreML */,
+				704E4E80279ED8EC005C0985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		704E4E80279ED8EC005C0985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				704E4E7F279ED8EC005C0985 /* Cat or Dog CoreML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		704E4E81279ED8EC005C0985 /* Cat or Dog CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				704E4E96279EDDD5005C0985 /* Animal.swift */,
+				707F286927ABA6520076B202 /* ProgressBar.swift */,
+				707F286B27ABA8D60076B202 /* AnimalRow.swift */,
+				704E4E98279EDECF005C0985 /* AnimalModel.swift */,
+				704E4E82279ED8EC005C0985 /* Cat_or_Dog_CoreMLApp.swift */,
+				704E4E84279ED8EC005C0985 /* ContentView.swift */,
+				704E4E92279ED8FE005C0985 /* Constants.swift */,
+				704E4E90279ED8FD005C0985 /* MobileNetV2.mlmodel */,
+				704E4E91279ED8FD005C0985 /* sample.json */,
+				704E4E86279ED8ED005C0985 /* Assets.xcassets */,
+				704E4E88279ED8ED005C0985 /* Preview Content */,
+			);
+			path = "Cat or Dog CoreML";
+			sourceTree = "<group>";
+		};
+		704E4E88279ED8ED005C0985 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				704E4E89279ED8ED005C0985 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		704E4E7E279ED8EC005C0985 /* Cat or Dog CoreML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 704E4E8D279ED8ED005C0985 /* Build configuration list for PBXNativeTarget "Cat or Dog CoreML" */;
+			buildPhases = (
+				704E4E7B279ED8EC005C0985 /* Sources */,
+				704E4E7C279ED8EC005C0985 /* Frameworks */,
+				704E4E7D279ED8EC005C0985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cat or Dog CoreML";
+			productName = "Cat or Dog CoreML";
+			productReference = 704E4E7F279ED8EC005C0985 /* Cat or Dog CoreML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		704E4E77279ED8EC005C0985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					704E4E7E279ED8EC005C0985 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 704E4E7A279ED8EC005C0985 /* Build configuration list for PBXProject "Cat or Dog CoreML" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 704E4E76279ED8EC005C0985;
+			productRefGroup = 704E4E80279ED8EC005C0985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				704E4E7E279ED8EC005C0985 /* Cat or Dog CoreML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		704E4E7D279ED8EC005C0985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704E4E8A279ED8ED005C0985 /* Preview Assets.xcassets in Resources */,
+				704E4E87279ED8ED005C0985 /* Assets.xcassets in Resources */,
+				704E4E94279ED8FE005C0985 /* sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		704E4E7B279ED8EC005C0985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704E4E93279ED8FE005C0985 /* MobileNetV2.mlmodel in Sources */,
+				704E4E99279EDECF005C0985 /* AnimalModel.swift in Sources */,
+				704E4E85279ED8EC005C0985 /* ContentView.swift in Sources */,
+				704E4E83279ED8EC005C0985 /* Cat_or_Dog_CoreMLApp.swift in Sources */,
+				707F286C27ABA8D60076B202 /* AnimalRow.swift in Sources */,
+				704E4E95279ED8FE005C0985 /* Constants.swift in Sources */,
+				704E4E97279EDDD5005C0985 /* Animal.swift in Sources */,
+				707F286A27ABA6520076B202 /* ProgressBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		704E4E8B279ED8ED005C0985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		704E4E8C279ED8ED005C0985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		704E4E8E279ED8ED005C0985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cat or Dog CoreML/Preview Content\"";
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arrinal.Cat-or-Dog-CoreML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		704E4E8F279ED8ED005C0985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cat or Dog CoreML/Preview Content\"";
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arrinal.Cat-or-Dog-CoreML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		704E4E7A279ED8EC005C0985 /* Build configuration list for PBXProject "Cat or Dog CoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704E4E8B279ED8ED005C0985 /* Debug */,
+				704E4E8C279ED8ED005C0985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		704E4E8D279ED8ED005C0985 /* Build configuration list for PBXNativeTarget "Cat or Dog CoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704E4E8E279ED8ED005C0985 /* Debug */,
+				704E4E8F279ED8ED005C0985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 704E4E77279ED8EC005C0985 /* Project object */;
+}
